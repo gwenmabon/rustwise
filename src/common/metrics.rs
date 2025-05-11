@@ -1,7 +1,8 @@
 // Common metrics like accuracy, precision, etc.
 
 pub fn accuracy(y_true: &[f32], y_pred: &[f32]) -> f32 {
-    let correct = y_true.iter()
+    let correct = y_true
+        .iter()
         .zip(y_pred.iter())
         .filter(|(a, b)| (*a > &0.5) == (*b > &0.5))
         .count();

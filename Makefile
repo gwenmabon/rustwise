@@ -2,18 +2,18 @@ VERSION=1.0
 NAME=rust-makefile
 EXEC=rust-exec
 PREFIX=$(HOME)/.local
-example ?= run_logistic
+example ?= run_logistic_regression
 default: build_release
 
 test:
 	@cargo test
 
-run:
+run_example:
 	@cargo run --example $(example)
 
 fmt:
 	@echo "Formatting code"
-	@cargo fmt --all@
+	@cargo fmt --all
 clippy:
 	@echo "Formatting code"
 	@cargo clippy --all-targets --all-features -- -D warnings

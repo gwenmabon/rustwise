@@ -1,6 +1,6 @@
 # RustWise 🦀📚
 
-![Rust](https://github.com/gwenmabob/rustwise/actions/workflows/ci.yml/badge.svg)
+![Rust](https://github.com/gwenmabon/rustwise/actions/workflows/ci.yml/badge.svg)
 
 > A lightweight collection of machine learning models implemented in pure Rust.
 
@@ -12,7 +12,7 @@ The goal is to provide a clean, minimal foundation for learning, extending, and 
 ## 🚀 Features
 
 - 📈 Logistic Regression
-- 🔁 Bayesian Logistic Regression (based on Chapelle's paper)
+- 🔁 Bayesian Logistic Regression
 - 🧠 Perceptron
 - 🐦 Naive Bayes
 - 🧰 Shared tools: metrics, traits, utilities
